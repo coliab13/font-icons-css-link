@@ -1,0 +1,51 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+background-color: #333;
+}
+.navbar{
+    height: 56px;
+    background-color: #444;
+    padding:0 40px;
+}
+.navbar li{
+    float: left;
+    margin-top: 19px;
+}
+.navbar a{
+    color: #999;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: #fff;
+}
+.navbar li:last-child{
+    float: right;
+}
+.navbar li:nth-child(2){
+    margin:19px 40px;
+}
+.navbar li:nth-child(3){
+    margin-right:40px;
+}
+.navbar li:nth-child(5){
+    margin:19px 10px;
+}
+.navbar li:first-child{
+    margin-top: 4px;
+}
+.navbar li:nth-child(2)>a{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    color: red;
+    font-weight: bold;
+    box-shadow: 0 0 5px 2px #111;
+}
+@keyframes flas{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.navbar li .fa-mobile-alt{
+    animation: flas 1s infinite;
+    margin-right: 5px;
+}
